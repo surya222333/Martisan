@@ -1,0 +1,9 @@
+{
+  "name": "martisan-marketplace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "setup:backend": "node scripts/setup-backend.js", "dev": "vite --host 127.0.0.1", "dev:backend": "node scripts/start-dev.js backend", "dev:all": "node scripts/start-dev.js all", "build": "vite build", "build:static": "node scripts/build-static.js", "preview": "vite preview", "test": "node --test" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "react": "latest", "react-dom": "latest" },
+  "devDependencies": {}
+}

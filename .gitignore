@@ -1,0 +1,11 @@
+node_modules/
+dist/
+backend/.venv/
+backend/.env
+backend/.u2net/
+backend/__pycache__/
+backend/.uv-cache/
+backend/backend/
+.uv-cache/
+__pycache__/
+*.py[cod]
